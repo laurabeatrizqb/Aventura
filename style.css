@@ -1,0 +1,14 @@
+body{
+ background-color: rgb(250, 23, 182);
+ color: rgb(90, 7, 116);
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ height: 700px;
+margin: 0;
+}
+
+button{
+
+
+}
