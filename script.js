@@ -14,7 +14,7 @@ if(proximoElemento){
    }else{
          console.error(`Elemento com ID "${proximoPasso}" nao encontrado.`)
         }
-        });
+        })
       });
 
 
