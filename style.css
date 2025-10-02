@@ -1,31 +1,33 @@
-body{
- background-color: rgb(250, 23, 182);
- color: rgb(90, 7, 116);
- display:flex;
- justify-content: center;
- align-items: center;
- height: 700px;
-margin: 0;
+body {
+    background-color: #f704e2b7;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
 }
 
-button{
-background-color: aqua;
-color: blue;
-font-family:"Bai Jamjuree", sans-serif;
-
-}
-.passo{
-    display: block;
+button {
+    background-color: #e609c1;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
-.passo.ativo{
-    display: block;
+.passo {
+    display: none;
 }
 
-main{
+.passo.ativo {
+    display:block;
+}
+
+main {
     text-align: center;
     max-width: 90%;
 }
-img{
+
+img {
     max-width: 90%;
 }
